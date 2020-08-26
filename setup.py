@@ -8,11 +8,14 @@ setuptools.setup(
     version="1.0.1",
     author="Vrishab Commuri",
     author_email="vrishabcommuri@gmail.com",
-    description="A small example package demonstrating a reproducibility issue",
+    description="A small example package demonstrating a computational reproducibility issue",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/vrishabcommuri/computational-reproducibility",
     packages=setuptools.find_packages(),
+    install_requires=[
+        'pandas',
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
