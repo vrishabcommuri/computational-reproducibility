@@ -13,7 +13,7 @@ def gen_sample_data():
     df.iloc[565] = "YES"
     return df
 
-def try_reproducible_split(data):
+def try_reproducible_split(df):
     # seed the random number generator
     np.random.seed(0)
 
