@@ -28,8 +28,3 @@ def try_reproducible_split(df):
     result = df.sample(1)
 
     return result.values[0][0]
-
-if __name__ == '__main__':
-    df = gen_sample_data()
-    is_reproducible = try_reproducible_split(df)
-    print("the random sample is reproducible:", is_reproducible)

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="reproducibility-pkg", # Replace with your own username
-    version="1.0.4",
+    version="1.0.5",
     author="Vrishab Commuri",
     author_email="vrishabcommuri@gmail.com",
     description="A small example package demonstrating a computational reproducibility issue",
